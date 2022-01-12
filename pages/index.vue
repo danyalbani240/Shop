@@ -26,6 +26,7 @@
       </div>
     </div>
     <TheSelectCategory />
+    <TheBestSellProducts />
   </div>
 </template>
 
