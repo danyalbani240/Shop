@@ -19,5 +19,6 @@ export default {}
   background-color: #e5e5e5;
   width: 100%;
   height: 327px;
+  margin-top: 17px;
 }
 </style>
