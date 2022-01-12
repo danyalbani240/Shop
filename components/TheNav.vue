@@ -3,7 +3,7 @@
     <nav class="nav mx-auto flex flex-row-reverse items-center">
       <img src="../assets/images/logo.svg" alt="logo" class="logo" />
       <div class="nav-links flex justify-between" dir="rtl">
-        <a href="#" class="nav-link">صفحه اصلی</a
+        <a href="#" class="nav-link active">صفحه اصلی</a
         ><a href="#" class="nav-link">اطراف من</a
         ><a href="#" class="nav-link">همگردی</a
         ><a href="#" class="nav-link">همبودشو</a
@@ -36,5 +36,8 @@ export default {}
   font-size: 18px;
   width: 581px;
   margin-right: 182px;
+}
+.nav-link.active{
+    color: #E47E7A;
 }
 </style>
