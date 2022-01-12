@@ -25,6 +25,7 @@
         </div>
       </div>
     </div>
+    <TheSelectCategory />
   </div>
 </template>
 
