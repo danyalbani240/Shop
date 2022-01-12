@@ -30,6 +30,7 @@
         <button class="buy-now flex items-center justify-center text-center byekan text-lg">همین حالا خرید کنید</button>
       </div>
     </div>
+    <TheFooter />
   </div>
 </template>
 
@@ -57,6 +58,19 @@ export default {
   box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
   border-radius: 24px;
   cursor: pointer;
+  animation: come_Up forwards;
+}
+.category-item:nth-child(1){
+  animation-duration: 1s;
+}
+.category-item:nth-child(2){
+  animation-duration: 1.2s;
+}
+.category-item:nth-child(3){
+  animation-duration: 1.4s;
+}
+.category-item:nth-child(4){
+  animation-duration: 1.5s;
 }
 .category-item p {
   font-size: 24px;

@@ -1,7 +1,7 @@
 <template>
   <div class="nav-container">
-    <nav class="nav mx-auto flex flex-row-reverse items-center">
-      <img src="../assets/images/logo.svg" alt="logo" class="logo" />
+    <nav class="nav  mx-auto flex flex-row-reverse items-center">
+      <img src="../assets/images/logo.svg"  alt="logo" class="logo cursor-pointer" />
       <div class="nav-links flex justify-between byekan" dir="rtl">
         <a href="#" class="nav-link active">صفحه اصلی</a
         ><a href="#" class="nav-link">اطراف من</a
@@ -36,6 +36,7 @@ export default {}
 .logo {
   width: 138px;
   height: 43px;
+  animation: Slide_Right 2s forwards;
 }
 .nav {
   width: 1180px;
@@ -47,13 +48,45 @@ export default {}
   width: 581px;
   margin-right: 182px;
 }
+.nav-link{
+  animation: Slide_Up forwards;
+}
+.nav-link:nth-child(1){
+  animation-duration: 1s;
+}
+.nav-link:nth-child(2){
+  animation-duration: 1.2s;
+
+}
+.nav-link:nth-child(3){
+  animation-duration: 1.5s;
+
+}
+.nav-link:nth-child(4){
+  animation-duration: 1.7s;
+
+}
+.nav-link:nth-child(5){
+
+  animation-duration: 1.8s;
+}
+.nav-link:nth-child(6){
+  animation-duration: 2s;
+
+}
+
+
+
 .nav-link.active{
     color: #E47E7A;
 }
 .cart{
     margin-right: 63px;
+    animation: Slide_Down 1s forwards;
 }
 .profile{
     width: 130px;
+    animation: Slide_Down 1.5s forwards;
+
 }
 </style>
